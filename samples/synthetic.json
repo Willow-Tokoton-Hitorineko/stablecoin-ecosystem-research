@@ -1,0 +1,17 @@
+{
+  "data_kind": "synthetic; not original research data",
+  "companies": [
+    {"id":"C01","name":"Example Issuer","stablecoin_business":true,"labels":["issuer","payment"],"evidence":"Synthetic business note: issues fiat-backed stablecoins."},
+    {"id":"C02","name":"Example Custodian","stablecoin_business":true,"labels":["custody","infrastructure"],"evidence":"Synthetic business note: provides stablecoin custody."},
+    {"id":"C03","name":"Example Collectibles","stablecoin_business":false,"labels":[],"evidence":"Synthetic business note: NFT marketplace only."},
+    {"id":"C04","name":"Example Screening","stablecoin_business":true,"labels":["compliance"],"evidence":"Synthetic business note: stablecoin transaction screening."},
+    {"id":"C05","name":"Example Pending","stablecoin_business":true,"labels":["payment"],"evidence":""}
+  ],
+  "deals": [
+    {"id":"D01","company_id":"C01","amount":"1200000","currency":"USD"},
+    {"id":"D02","company_id":"C02","amount":null,"currency":"USD"},
+    {"id":"D03","company_id":"C03","amount":"9000000","currency":"USD"},
+    {"id":"D04","company_id":"C04","amount":"500000","currency":"EUR"},
+    {"id":"D05","company_id":"C05","amount":"700000","currency":"USD"}
+  ]
+}
